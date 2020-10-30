@@ -1,0 +1,11 @@
+code {
+  font-family: 'fira-mono', 'PT Sans Mono', 'Monaco', 'Iconsolas',
+    'Droid Sans Mono', monospace;
+  font-size: inherit;
+  color: inherit;
+  font-weight: 550;
+}
+
+.card-title {
+  font-weight: 100;
+}
