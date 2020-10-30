@@ -10,3 +10,8 @@ code {
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
 }
+
+.card-text {
+  line-height: 1.55;
+  font-size: 1.11rem;
+}
