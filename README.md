@@ -4,6 +4,11 @@
  - Duration: 1 day (half a day per interface)
  - Deployment strategy: GitHub Pages
 
+## Built with
+- HTML
+- Bootstrap CSS 4.5.3
+- jQuery and JS Bundle (bootstrap dependencies)
+
 #### Main Site
 
 [View site](https://renv123.github.io/css-integration/)
