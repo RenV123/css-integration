@@ -7,11 +7,21 @@
 ## Ex1: Interface 1
 Recreate a grid of cards pixel perfect.
 
-#TODO: 
-- ADD LINK TO PAGE
-- FIX FONTS
+[ css-integration/Interface1/index.html](https://github.com/RenV123/css-integration/blob/main/Interface1/index.html)
+
+
+#### TODO: 
+- fix fonts
 
 ## Ex2: Interface 2
 Recreate a card with chart pixel perfect.
 
-#TODO: ADD LINK TO PAGE
+[css-integration/Interface2/index.html](https://github.com/RenV123/css-integration/blob/main/Interface2/index.html)
+
+#### TODO: 
+- fix fonts
+
+
+## Deployment
+
+[View site](https://renv123.github.io/css-integration/)
