@@ -1,5 +1,6 @@
 :root {
-  --white-semi-transparent: #ffffff85;
+  --text-white-semi-transparent: #ffffffab;
+  --bg-white-semi-transparent: #ffffff60;
 }
 
 /*Differentiating between bootstrap css and my rules with custom prefix*/
@@ -21,8 +22,8 @@ p,
   box-shadow: 0 0.5rem 0.5rem #000000ea;
 }
 .custom-page-views-text {
-  font-size: 0.9em;
-  color: var(--white-semi-transparent) !important;
+  font-size: 0.95em;
+  color: var(--text-white-semi-transparent) !important;
 }
 
 .custom-user-count {
@@ -31,12 +32,16 @@ p,
 }
 
 .custom-bg-transparent-white {
-  background-color: var(--white-semi-transparent) !important;
+  background-color: var(--bg-white-semi-transparent) !important;
 }
 
-.custom-table-border {
-  border-color: var(--white-semi-transparent) !important;
+.custom-table-header {
+  border-top: none !important;
+}
+
+td {
+  border-color: var(--bg-white-semi-transparent) !important;
 }
 .custom-text-semi-white {
-  color: var(--white-semi-transparent) !important;
+  color: var(--text-white-semi-transparent) !important;
 }
