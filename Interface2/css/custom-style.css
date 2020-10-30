@@ -1,8 +1,20 @@
 :root {
-  --white-semi-transparent: #ffffffcc;
+  --white-semi-transparent: #ffffff85;
 }
 
 /*Differentiating between bootstrap css and my rules with custom prefix*/
+/*Set font to Roboto*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.custom-user-count {
+  font-family: 'Roboto', sans-serif;
+}
+
 .custom-blue-chart-card {
   background-color: #468df1;
   border-radius: 0.2rem;
@@ -18,14 +30,13 @@
   font-weight: lighter !important;
 }
 
-/*Set font to Roboto*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-.custom-user-count {
-  font-family: 'Roboto', sans-serif;
+.custom-bg-transparent-white {
+  background-color: var(--white-semi-transparent) !important;
+}
+
+.custom-table-border {
+  border-color: var(--white-semi-transparent) !important;
+}
+.custom-text-semi-white {
+  color: var(--white-semi-transparent) !important;
 }
