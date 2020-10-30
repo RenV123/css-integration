@@ -1,3 +1,31 @@
-.card {
+:root {
+  --white-semi-transparent: #ffffffcc;
+}
+
+/*Differentiating between bootstrap css and my rules with custom prefix*/
+.custom-blue-chart-card {
   background-color: #468df1;
+  border-radius: 0.2rem;
+  box-shadow: 0 0.5rem 0.5rem #000000ea;
+}
+.custom-page-views-text {
+  font-size: 0.9em;
+  color: var(--white-semi-transparent) !important;
+}
+
+.custom-user-count {
+  font-size: 4em;
+  font-weight: lighter !important;
+}
+
+/*Set font to Roboto*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.custom-user-count {
+  font-family: 'Roboto', sans-serif;
 }
