@@ -1,0 +1,81 @@
+:root {
+  --text-white-semi-transparent: #ffffffab;
+  --bg-white-semi-transparent: #ffffff60;
+}
+
+#mockup {
+  width: 332px;
+  height: 516px;
+  background-image: url('../mockup.png');
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  opacity: 0.3;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.card {
+  background-color: #468df1;
+  border-radius: 0.1rem;
+  box-shadow: 0rem 0.05rem 0.15rem #00000073;
+  margin: 8px 7px;
+  width: 320px;
+  height: 500px;
+  padding: 1.4rem 1.4rem;
+  color: var(--text-white-semi-transparent);
+  font-family: 'Roboto', sans-serif;
+}
+
+.card h2 {
+  font-weight: normal;
+  font-size: 0.88rem;
+}
+
+.users-count {
+  margin-top: 0.64rem;
+  margin-left: 0.06rem;
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+.graph img {
+  width: 100%;
+  height: auto;
+  margin: 0.2rem auto 1.4rem -0.1rem;
+}
+
+.graph p {
+  margin: 1.65rem auto 0.2rem auto;
+  font-size: 0.74rem;
+}
+
+table {
+  line-height: 1.75rem;
+  margin: -0.5rem 10rem 1.7rem auto;
+  width: 100%;
+}
+
+th {
+  font-size: 0.71rem;
+}
+td {
+  padding-left: 0.3rem;
+  font-size: 0.82rem;
+}
+
+table .users-column {
+  text-align: end;
+}
+
+footer hr {
+  margin: -0.3rem -1.4rem auto -1.4rem;
+}
+
+footer p {
+  margin-top: 0.7rem;
+  margin-left: 8.2rem;
+  font-size: 0.84rem;
+}
