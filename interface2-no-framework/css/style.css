@@ -12,7 +12,7 @@
   top: 0;
   left: 0;
 
-  opacity: 0.5;
+  opacity: 0;
   z-index: 10;
   pointer-events: none;
 }
@@ -56,17 +56,20 @@
 }
 
 table {
-  line-height: 1.75rem;
+  line-height: 1.7rem;
   margin-top: -0.5rem;
   width: 16.7rem;
 }
 
 th {
   font-size: 0.71rem;
+  border-bottom: 0.07rem solid var(--bg-white-semi-transparent);
 }
 td {
   padding-left: 0.3rem;
   font-size: 0.82rem;
+
+  border-bottom: 0.07rem solid var(--bg-white-semi-transparent);
 }
 
 table .users-column {
